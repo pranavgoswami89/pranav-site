@@ -8,12 +8,8 @@ export default function PranavUniverse() {const audioRef = useRef<HTMLAudioEleme
 const toggleMusic = () => {
   if (!audioRef.current) return;
 
-  if (audioRef.current.paused) {
-    audioRef.current.play();
-  } else {
-    audioRef.current.pause();
-  }
-};
+  audioRef.current.play();
+};s
   return (
     <>
     <audio
