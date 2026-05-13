@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import Link from "next/link";
 export default function PranavUniverse() {const audioRef = useRef<HTMLAudioElement>(null);
 
 const toggleMusic = () => {
@@ -101,12 +102,12 @@ const toggleMusic = () => {
                 Subscribe Now
               </a>
 
-              <a
+   <Link
   href="/explore"
   className="px-8 py-4 rounded-2xl border border-white/20 hover:border-purple-500 transition inline-block"
 >
   Explore
-</a>
+</Link>
             </div>
           </motion.div>
 
