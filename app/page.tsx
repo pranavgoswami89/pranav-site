@@ -23,10 +23,14 @@ const toggleMusic = () => {
     <main className="relative overflow-hidden bg-black text-white overflow-x-hidden">
       {/* Background Glow */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-purple-600/30 blur-3xl rounded-full" />
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-cyan-500/30 blur-3xl rounded-full" />
-      </div>
 
+  <div className="absolute top-[-100px] left-[-100px] w-[700px] h-[700px] bg-purple-700/30 blur-[160px] rounded-full"></div>
+
+  <div className="absolute bottom-[-100px] right-[-100px] w-[700px] h-[700px] bg-pink-600/20 blur-[160px] rounded-full"></div>
+
+  <div className="absolute top-[30%] left-[40%] w-[400px] h-[400px] bg-orange-500/10 blur-[140px] rounded-full"></div>
+
+</div>
       {/* Navbar */}
       <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-black/30 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
