@@ -20,7 +20,7 @@ const toggleMusic = () => {
   src="/theme.mp3"
   loop
 />
-    <main className="bg-black text-white overflow-x-hidden">
+    <main className="relative overflow-hidden bg-black text-white overflow-x-hidden">
       {/* Background Glow */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-purple-600/30 blur-3xl rounded-full" />
