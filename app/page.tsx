@@ -101,9 +101,12 @@ const toggleMusic = () => {
                 Subscribe Now
               </a>
 
-              <button className="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/10 transition">
-                Explore
-              </button>
+              <a
+  href="/explore"
+  className="px-8 py-4 rounded-2xl border border-white/20 hover:border-purple-500 transition inline-block"
+>
+  Explore
+</a>
             </div>
           </motion.div>
 
