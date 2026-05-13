@@ -9,7 +9,7 @@ const toggleMusic = () => {
   if (!audioRef.current) return;
 
   audioRef.current.play();
-};s
+};
   return (
     <>
     <audio
