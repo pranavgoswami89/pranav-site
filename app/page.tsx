@@ -108,6 +108,9 @@ const toggleMusic = () => {
 >
   Explore
 </Link>
+<audio ref={audioRef} loop>
+  <source src="/theme.mp3" type="audio/mpeg" />
+</audio>
             </div>
           </motion.div>
 
