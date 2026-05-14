@@ -12,12 +12,12 @@ export default function ExplorePage() {
         transition={{ duration: 1.5 }}
         className="text-6xl font-bold"
       >
-        PRANAV_<span className="text-purple-500">EDITX</span>
+        PRANAV<span className="text-purple-500">_EDITX</span>
       </motion.h1>
 
-      <div className="grid md:grid-cols-3 gap-6 p-6 w-full max-w-6xl">
+      <div className="flex gap-16 p-10 w-full max-w-5xl justify-center">
 
-        <div className="bg-zinc-900 p-6 rounded-2xl border border-purple-500">
+        <div className="bg-zinc-900 p-10 w-[420px] rounded-2xl border border-purple-500">
           <h2 className="text-2xl font-bold mb-2">Subscribers</h2>
           <p className="text-4xl text-purple-400">600+</p>
         </div>
