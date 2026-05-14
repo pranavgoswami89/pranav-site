@@ -12,27 +12,22 @@ export default function ExplorePage() {
         transition={{ duration: 1.5 }}
         className="text-6xl font-bold"
       >
-        PRANAV <span className="text-purple-500">EDITX</span>
+        PRANAV_<span className="text-purple-500">EDITX</span>
       </motion.h1>
 
       <div className="grid md:grid-cols-3 gap-6 p-6 w-full max-w-6xl">
 
         <div className="bg-zinc-900 p-6 rounded-2xl border border-purple-500">
           <h2 className="text-2xl font-bold mb-2">Subscribers</h2>
-          <p className="text-4xl text-purple-400">10K+</p>
+          <p className="text-4xl text-purple-400">600+</p>
         </div>
 
         <div className="bg-zinc-900 p-6 rounded-2xl border border-purple-500">
           <h2 className="text-2xl font-bold mb-2">Total Views</h2>
-          <p className="text-4xl text-pink-400">1M+</p>
+          <p className="text-4xl text-pink-400">2lakh+</p>
         </div>
 
-        <div className="bg-zinc-900 p-6 rounded-2xl border border-purple-500">
-          <h2 className="text-2xl font-bold mb-2">Latest Video</h2>
-          <p className="text-lg text-gray-300">
-            New cinematic edit uploaded 🔥
-          </p>
-        </div>
+        
 
       </div>
 
